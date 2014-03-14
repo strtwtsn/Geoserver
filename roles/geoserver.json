@@ -1,2 +1,1 @@
-{ "run_list": [ "recipe[geoserver]"]}
-
+{ "run_list": [ "recipe[apache]","recipe[tomcat]","recipe[java]","recipe[geoserver]"]}
